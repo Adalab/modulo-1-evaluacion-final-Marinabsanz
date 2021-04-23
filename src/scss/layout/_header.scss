@@ -1,5 +1,15 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.banner {
+  display: block;
+  position: fixed;
+  width: 200px;
+  background-color: blueviolet;
+  border: solid 5px;
+}
+
+.banner-icon {
+  display: block;
+  width: 200px;
+  background-color: brown;
+  z-index: 3;
+  position: absolute;
 }

@@ -1,1 +1,1 @@
-*{box-sizing:border-box;margin:0;padding:0}.page__header{display:flex;justify-content:space-evenly;margin-bottom:3rem}.hero{background-image:url("../images/cover.jpg");width:320px;height:100vh}
+*{box-sizing:border-box;margin:0;padding:0}.banner{display:block;position:fixed;width:200px;background-color:blueviolet;border:solid 5px}.banner-icon{display:block;width:200px;background-color:brown;z-index:3;position:absolute}.hero{background-image:url("../images/cover.jpg");width:320px;height:100vh}
