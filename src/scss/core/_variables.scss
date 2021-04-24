@@ -1,11 +1,24 @@
 //google fonts
 
-@font-family: "roboto regular";
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
-
 // fonts
 $font-main: "Roboto", sans-serif;
+$font-titles: "Roboto Slab", serif;
 
 // colors
-$color-bg: #f3f4f5;
-$color-secondary: #999; ;
+$colorherofooter: #ffffff;
+$colori: #8ccbea;
+$colormenu: #0271bc;
+$colorfooter: #304268;
+$color3reasonsback: #eff9ff;
+$color3: #f26002;
+
+//fonts
+
+$sizehero: 2.625rem;
+$sizeclaim: 1rem;
+$sizerest: 1.125rem;
+$sizetitles: 2rem;
+$sizei: 0.875rem;
+
+/* ver si mejor usar REMS ya que los eMS se heredan
+.NOTA: tendría que cambiar valor en ROOT*/

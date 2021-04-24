@@ -2,7 +2,7 @@
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-  color: #ffffff;
+  color: $colorherofooter;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,10 +12,13 @@
 
   &__title {
     text-transform: uppercase;
+    font-family: $font-titles;
+    font-size: $sizehero;
   }
 
   &__claim {
     text-transform: capitalize;
+    font-family: $font-main;
   }
 }
 
