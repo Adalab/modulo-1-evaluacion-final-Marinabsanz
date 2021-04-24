@@ -16,3 +16,29 @@ h3 {
   background-color: $color3reasonsback;
   font-size: $sizerest;
 }
+
+.buttongo {
+  text-transform: uppercase;
+  color: $colorbutton;
+  background-color: $colorherofooter;
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px $colorbutton;
+}
+.buttonmore {
+  background-color: $colorbutton;
+  color: $colorherofooter;
+  font-size: $sizebutton;
+  width: 124px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: transparent;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/*REVISAR MARGIN Y PADDDINGS Y APLICARLOS 
+proBLEMAS EN MIRAR MEDIDAS ZEPLIN.
+
+PROPORCIONAL RESPONSIVE!!CUIDADO*/
