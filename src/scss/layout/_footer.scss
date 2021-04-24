@@ -2,18 +2,42 @@
   background-color: $colorfooter;
   color: $colorherofooter;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.ico-arrow {
+  width: 45px;
+  height: 45px;
+  padding: 12px 10.4px 10px;
+  background-color: #ffffff;
+  border-radius: 22.5px;
+}
+
+.link {
+  text-decoration: none;
+  list-style-type: none;
+  color: $colorherofooter;
 }
 
 /* VER SI ME VALE ALGO DE AQUI  PARA EL COPY 
 
-
-.page__footer {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-transform: uppercase;
+  list-style: none;
+  margin-top: 20px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100vw;
   padding: 1rem;
-  color: $color-secondary;
+  
 }
 
 

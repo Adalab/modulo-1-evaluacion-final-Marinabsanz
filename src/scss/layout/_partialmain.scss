@@ -6,9 +6,12 @@ h3 {
   color: $colori;
   font-size: $sizei;
 }
-
 .section1 {
   text-transform: capitalize;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section2 {
