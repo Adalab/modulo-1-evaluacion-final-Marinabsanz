@@ -12,7 +12,14 @@
   text-align: center;
   align-items: center;
   position: relative;
+  @media all and(min-width:768px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
+  @media all and (min-width: 1200px) {
+    justify-content: center;
+  }
   &__ico {
     position: absolute;
     top: -22.5px;
@@ -33,21 +40,8 @@
   }
 }
 
-.container0 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  @media all and (min-width: 768px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
 .links {
   color: $colorherofooter;
-  list-style: none;
-  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,10 +49,21 @@
   line-height: 30px;
   @media all and (min-width: 768px) {
     justify-content: center;
-    align-items: center;
+    text-align: left;
   }
 }
-
+.navf1 {
+  @media all and (min-width: 1200px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.navf2 {
+  @media all and (min: width 1200px) {
+    padding-left: 15px;
+    padding-right: 150px;
+  }
+}
 .navlinks {
   margin-top: 30px;
   line-height: 20px;
