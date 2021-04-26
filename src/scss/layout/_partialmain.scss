@@ -18,7 +18,7 @@ h3 {
   padding-right: 15px;
   padding-bottom: -10px;
 }
-  /* @media (min-width: 768px) {
+/* @media (min-width: 768px) {
     height: 330px;
     padding-left: 39px;
     padding-right: 39px;
@@ -41,7 +41,6 @@ h3 {
   align-items: center;
   text-decoration: none; */
 
-
 .buttongo {
   text-transform: uppercase;
   color: $colorbutton;
@@ -50,6 +49,7 @@ h3 {
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px $colorbutton;
+ 
 }
 .buttonmore {
   background-color: $colorbutton;
