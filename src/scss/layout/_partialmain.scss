@@ -31,15 +31,16 @@ h3 {
     padding-right: 275px;
   }
 }
-
+ */
 .section2 {
   text-transform: capitalize;
   background-color: $color3reasonsback;
+  text-decoration: none;
   font-size: $sizerest;
-  /* AQUI GRID display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none; */
+  display: grid;
+  text-align: center;
+ 
+}
 
 .buttongo {
   text-transform: uppercase;
@@ -49,7 +50,6 @@ h3 {
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px $colorbutton;
- 
 }
 .buttonmore {
   background-color: $colorbutton;

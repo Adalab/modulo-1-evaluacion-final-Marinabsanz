@@ -30,29 +30,8 @@
   border-radius: 22.5px;
   margin: 151px, 149px;
   margin-top: 68px;
-}
-
-/*column para que se pongan así, luego justify content center, el text aling para el centro
-y para la  flechita, voy a poner aling-items,  VERIFICAR CON responsive si funciona todo ok
-
-en la flechita MIRAR bien. 
-REVISAR MEDIDAS Y RESTAr SUMAR O LO QUE SEA CON LOS MARGIN Y LOS PADDING---IMPORTANTE
- */
-
-/*  
-
-  @media all and (min-width: 768px) {
-  }
-  @media all and (min-width: 1200px) {
-    height: 550px;
+  transition: transform ease 1s;
+  &:hover {
+    transform: translate(0, 100%);
   }
 }
-
-  @media all and (min-width: 1200px) {
-    transform: translate(0, 480px);
-  }
-} 
-
-
-
-*/

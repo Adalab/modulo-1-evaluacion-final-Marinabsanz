@@ -8,7 +8,6 @@
   text-align: center;
   align-items: center;
   position: relative;
-  
 
   &__ico {
     position: absolute;
@@ -23,6 +22,10 @@
     display: block;
     margin: auto;
     transform: translatey(50%);
+    transition: transform ease 2s;
+    &:hover {
+      transform: translate(0, -70%);
+    }
   }
 }
 
@@ -34,7 +37,6 @@
   @media all and (min-width: 768px) {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
   }
 }
 .links {
@@ -44,18 +46,28 @@
   display: flex;
   flex-direction: column;
   line-height: 30px;
- 
+  @media all and (min-width: 768px) {
+  }
 }
+
+.navlinks {
+  margin-top: 30px;
+  line-height: 20px;
+  @media all and (min-width: 768px) {
+    width: 420px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 .copy {
   text-transform: lowercase;
   display: flex;
   flex-direction: column;
-  @media all and (min-width: 768px) {
-    order: -1;
-}
-}
-.navlinks {
   margin-top: 30px;
-  line-height: 20px;
+  margin-bottom: 75px;
+  @media all and (min-width: 768px) {
+    margin-left: 39px;
+    order: -1;
+  }
 }
-
