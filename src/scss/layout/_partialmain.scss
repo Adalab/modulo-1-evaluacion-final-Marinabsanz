@@ -29,9 +29,15 @@
   font-size: $sizerest;
   text-align: center;
   align-items: center;
+  line-height: 20px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+.sect2-1,
+.sect2-2,
+.sect2-3 {
+  line-height: 30px;
 }
 
 .buttongo {
