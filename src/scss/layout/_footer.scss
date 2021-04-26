@@ -7,6 +7,7 @@
   padding-bottom: 30px;
   padding-right: 39px;
   padding-left: 39px;
+  line-height: 30px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -42,11 +43,12 @@
 
 .links {
   color: $colorherofooter;
+  font-family: $font-main;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 30px;
+
   @media all and (min-width: 768px) {
     justify-content: center;
     text-align: left;
@@ -54,19 +56,16 @@
 }
 .navf1 {
   @media all and (min-width: 1200px) {
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 .navf2 {
+  margin-top: 20px;
   @media all and (min: width 1200px) {
     padding-left: 15px;
-    padding-right: 150px;
+    padding-right: 15px;
   }
-}
-.navlinks {
-  margin-top: 30px;
-  line-height: 20px;
 }
 .copy {
   text-transform: lowercase;
