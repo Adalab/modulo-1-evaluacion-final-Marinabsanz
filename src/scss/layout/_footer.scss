@@ -38,6 +38,7 @@
   @media all and (min-width: 768px) {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 .links {
@@ -46,24 +47,24 @@
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   line-height: 30px;
   @media all and (min-width: 768px) {
+    justify-content: center;
+    align-items: center;
   }
 }
 
 .navlinks {
   margin-top: 30px;
   line-height: 20px;
-  @media all and (min-width: 768px) {
-    width: 420px;
-    display: flex;
-    justify-content: flex-end;
-  }
 }
-
 .copy {
   text-transform: lowercase;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin-top: 30px;
   margin-bottom: 75px;
@@ -72,3 +73,4 @@
     order: -1;
   }
 }
+
