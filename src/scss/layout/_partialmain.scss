@@ -50,11 +50,7 @@
   margin-bottom: 45px;
   border-radius: 22.5px;
   border: solid 2px $colorbutton;
-  transition: background-color 0.2s;
-
-  &:hover {
-    background-color: blue;
-  }
+  
 }
 .buttonmore {
   background-color: $colorbutton;

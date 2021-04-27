@@ -7,4 +7,15 @@
   padding: 15px 14px;
   background-color: #0271bc;
   z-index: 2;
+  animation-name: menucool;
+  animation-duration: 4s;
+  @keyframes menucool {
+    from {
+      background-color: violet;
+    }
+
+    to {
+      background-color: orange;
+    }
+  }
 }
