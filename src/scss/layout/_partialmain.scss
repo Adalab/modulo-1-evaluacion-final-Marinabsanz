@@ -1,3 +1,27 @@
+.anonymous {
+  width: 100vw;
+  color: $colorherofooter;
+  background-color: $colorbutton;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blue;
+  }
+}
+
+@media (min-width: 768px) {
+  .date {
+    width: 100vw;
+  }
+}
+
 .titlessect {
   font-size: $sizetitles;
   font-family: $font-titles;
